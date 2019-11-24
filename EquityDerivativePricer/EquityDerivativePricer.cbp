@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EquityDerivativePricer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EquityDerivativePricer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/EquityDerivativePricer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="DoubleDigital.cpp" />
+		<Unit filename="DoubleDigital.h" />
+		<Unit filename="DoubleDigital2.h" />
+		<Unit filename="MCStatistics.cpp" />
+		<Unit filename="MCStatistics.h" />
+		<Unit filename="Minmax.h" />
+		<Unit filename="Parameters.cpp" />
+		<Unit filename="Parameters.h" />
+		<Unit filename="Payoff1.cpp" />
+		<Unit filename="Payoff1.h" />
+		<Unit filename="Payoff3.cpp" />
+		<Unit filename="Payoff3.h" />
+		<Unit filename="PayoffBridge.cpp" />
+		<Unit filename="PayoffBridge.h" />
+		<Unit filename="Random1.cpp" />
+		<Unit filename="Random1.h" />
+		<Unit filename="SimpleMC.cpp" />
+		<Unit filename="SimpleMC.h" />
+		<Unit filename="SimpleMC2.h" />
+		<Unit filename="SimpleMC3.cpp" />
+		<Unit filename="SimpleMC3.h" />
+		<Unit filename="SimpleMC6.cpp" />
+		<Unit filename="SimpleMC6.h" />
+		<Unit filename="SimpleMC7.cpp" />
+		<Unit filename="SimpleMC7.h" />
+		<Unit filename="SimpleMCMain.cpp" />
+		<Unit filename="SimpleMCMain2.cpp" />
+		<Unit filename="SimpleMCMain4.cpp" />
+		<Unit filename="SimpleMCMain5.cpp" />
+		<Unit filename="StatsMain" />
+		<Unit filename="StatsMain.cpp" />
+		<Unit filename="Vanilla3.cpp" />
+		<Unit filename="Vanilla3.h" />
+		<Unit filename="VanillaMain1.cpp" />
+		<Unit filename="Wrapper.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

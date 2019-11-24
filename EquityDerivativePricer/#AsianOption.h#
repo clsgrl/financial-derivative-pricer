@@ -1,0 +1,20 @@
+#ifndef _ASIANOPTION_H_
+#define _ASIANOPTION_H_
+
+#include "Payoff.h"
+
+class AsianOption {
+ protected:
+  PayOff* payoff;
+
+ public:
+  AsianOption(Payoff* _payOff);
+  virtual ~AsianOption() {};
+
+  virtual double payoff 
+  
+}
+
+
+
+#endif /* _ASIANOPTION_H_ */

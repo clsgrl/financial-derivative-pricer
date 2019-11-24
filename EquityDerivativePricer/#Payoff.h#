@@ -1,0 +1,15 @@
+#ifndef _PAYOFF_H_
+#define _PAYOFF_H_
+
+class PayOff {
+ public:
+  PayOff();
+  virtual ~PayOff();
+
+  virtual double operator() (const double& s) const = 0;
+
+}
+
+
+
+#endif /* _PAYOFF_H_ */
